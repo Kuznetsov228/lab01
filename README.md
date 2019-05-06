@@ -23,21 +23,21 @@ $ pwd #Полный путь
 /home/kuza/Kuznetsov228/workspace
 $ cd /home/kuza/Kuznetsov228 #На уровень выше
 $ pwd #Текущая директория
-/home/kuza
+/home/kuza/Kuznetsov228
 
 ```
 
 ```ShellSession
-$ mkdir -p workspace/tasks/ #Создание папки
-$ mkdir -p workspace/projects/ #Создание папки
-$ mkdir -p workspace/reports/ #Создание папки
+$ mkdir -p workspace/tasks/ #Создание директорию
+$ mkdir -p workspace/projects/ #Создание директорию
+$ mkdir -p workspace/reports/ #Создание директорию
 $ cd workspace #Переход в директорию workspace
 ```
 
 ```ShellSession
 # Debian
 $ wget https://nodejs.org/dist/v6.11.5/node-v6.11.5-linux-x64.tar.xz #Скачивание архива
-$ tar -xf node-v6.11.5-linux-x64.tar.xz #Разархирование 
+$ tar node-v6.11.5-linux-x64.tar.xz #Разархирование 
 $ rm -rf node-v6.11.5-linux-x64.tar.xz #Удаление архива
 $ mv node-v6.11.5-linux-x64 node #Переименовывание директории
 ```
@@ -46,13 +46,11 @@ $ mv node-v6.11.5-linux-x64 node #Переименовывание директ�
 $ ls node/bin #Показать содержимое node/bin
 # node  npm
 $ echo ${PATH} #Вывести значение переменной PATH
-
-
 $ export PATH=${PATH}:`pwd`/node/bin #Запись нового значения в PATH
 $ echo ${PATH} #Вывести значение PATH
 #/home/kuza/bin:/usr/local/bin:/home/KuzaDrot/.local/bin:/usr/local/bin:/usr/bin:/cygdrive/c/Windows/system32:/cygdrive/c/Windows:/cygdrive/c/Windows/System32/Wbem:/cygdrive/c/Windows/System32/WindowsPowerShell/v1.0:/cygdrive/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/cygdrive/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/cygdrive/c/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin:/home/KuzaDrot/node/bin
 
-$ mkdir scripts #Создание папки scripts 
+$ mkdir scripts #Создание директорию scripts 
 $ cat > scripts/activate<<EOF  #Запись строки в scripts
 export PATH=\${PATH}:`pwd`/node/bin 
 EOF
@@ -78,8 +76,8 @@ EOF
 $ export LAB_NUMBER=01 # Добавляем переменную с номером л/р
 $ git clone https://github.com/tp-labs/lab${LAB_NUMBER} tasks/lab${LAB_NUMBER} # Клонируем репозиторий с л/р в директорию tasks/lab01
 $ mkdir reports/lab${LAB_NUMBER} # Создаем папку для хранения отчетов
-$ cp tasks/lab${LAB_NUMBER}/README.md reports/lab${LAB_NUMBER}/REPORT.md # Копируем README.md в папку с отчетами и переименовываем его
-$ cd reports/lab${LAB_NUMBER} # Переходим в папку с REPORT.md
+$ cp tasks/lab${LAB_NUMBER}/README.md reports/lab${LAB_NUMBER}/REPORT.md # Копируем README.md в директорию с отчетами и переименовываем его
+$ cd reports/lab${LAB_NUMBER} # Переходим в директорию с REPORT.md
 $ edit REPORT.md # Редактируем его
 $ gistup -m "lab${LAB_NUMBER}" # Создаем gist с сообщением 'lab01'
 ```
