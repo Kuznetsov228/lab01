@@ -23,7 +23,7 @@ $ pwd #Полный путь
 /home/kuza/Kuznetsov228/workspace
 $ cd /home/kuza/Kuznetsov228 #На уровень выше
 $ pwd #Текущая директория
-/home/kuza
+/home/kuza/Kuznetsov228
 
 ```
 
