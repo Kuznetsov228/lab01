@@ -28,9 +28,9 @@ $ pwd #Текущая директория
 ```
 
 ```ShellSession
-$ mkdir -p workspace/tasks/ #Создание папки
-$ mkdir -p workspace/projects/ #Создание папки
-$ mkdir -p workspace/reports/ #Создание папки
+$ mkdir -p workspace/tasks/ 
+$ mkdir -p workspace/projects/
+$ mkdir -p workspace/reports/ 
 $ cd workspace #Переход в директорию workspace
 ```
 
