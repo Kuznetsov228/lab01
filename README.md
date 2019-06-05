@@ -21,7 +21,7 @@ $ mkdir -p ${GITHUB_USERNAME}/workspace #Создание директории K
 $ cd ${GITHUB_USERNAME}/workspace #Смена директории
 $ pwd #Полный путь
 /home/kuza/Kuznetsov228/workspace
-$ cd /home/sergeymarti/SergeyMarti #На уровень выше
+$ cd /home/sergeymarti/Kuznetsov228 #На уровень выше
 $ pwd #Текущая директория
 /home/kuza
 
