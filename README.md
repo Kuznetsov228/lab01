@@ -23,14 +23,14 @@ $ pwd #Полный путь
 /home/kuza/Kuznetsov228/workspace
 $ cd /home/kuza/Kuznetsov228 #На уровень выше
 $ pwd #Текущая директория
-/home/kuza
+/home/kuza/Kuznetsov228
 
 ```
 
 ```ShellSession
-$ mkdir -p workspace/tasks/ #Создание папки
-$ mkdir -p workspace/projects/ #Создание папки
-$ mkdir -p workspace/reports/ #Создание папки
+$ mkdir -p workspace/tasks/ 
+$ mkdir -p workspace/projects/
+$ mkdir -p workspace/reports/
 $ cd workspace #Переход в директорию workspace
 ```
 
@@ -52,7 +52,7 @@ $ export PATH=${PATH}:`pwd`/node/bin #Запись нового значения
 $ echo ${PATH} #Вывести значение PATH
 #/home/kuza/bin:/usr/local/bin:/home/KuzaDrot/.local/bin:/usr/local/bin:/usr/bin:/cygdrive/c/Windows/system32:/cygdrive/c/Windows:/cygdrive/c/Windows/System32/Wbem:/cygdrive/c/Windows/System32/WindowsPowerShell/v1.0:/cygdrive/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/cygdrive/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/cygdrive/c/Program Files/mingw-w64/x86_64-7.2.0-posix-seh-rt_v5-rev1/mingw64/bin:/home/KuzaDrot/node/bin
 
-$ mkdir scripts #Создание папки scripts 
+$ mkdir scripts #Создание дериктории scripts 
 $ cat > scripts/activate<<EOF  #Запись строки в scripts
 export PATH=\${PATH}:`pwd`/node/bin 
 EOF
