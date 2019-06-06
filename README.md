@@ -37,7 +37,7 @@ $ cd workspace #Переход в директорию workspace
 ```ShellSession
 # Debian
 $ wget https://nodejs.org/dist/v6.11.5/node-v6.11.5-linux-x64.tar.xz #Скачивание архива
-$ tar -xf node-v6.11.5-linux-x64.tar.xz #Разархирование 
+$ tar node-v6.11.5-linux-x64.tar.xz #Разархирование 
 $ rm -rf node-v6.11.5-linux-x64.tar.xz #Удаление архива
 $ mv node-v6.11.5-linux-x64 node #Переименовывание директории
 ```
