@@ -11,7 +11,7 @@
 ## Tutorial
 
 ```bash
-$ export GITHUB_USERNAME=Kuznetsov228 # Создать переменную окружения 
+$ export GITHUB_USERNAME=kuza # Создать переменную окружения 
 $ export GIST_TOKEN=<xxxxxxxxxxx> # Создать переменную окружения GIST_TOKEN
 $ alias edit=vim # Теперь команда по вызову edit выполняется vim
 ```
